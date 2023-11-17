@@ -6,7 +6,7 @@ pipeline {
      }
     environment {
     ACR_NAME = "yanckoacr"
-    registyUrl = "yanckoacr.azurecr.io"
+    registyUrl = "yanckoacrr.azurecr.io"
     IMAGE_NAME = "nodejswebapp"
     IMAGE_TAG = "v1.0.0"
     registryCredential  = "yancko-acr"
