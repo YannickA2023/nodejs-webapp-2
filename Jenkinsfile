@@ -5,8 +5,8 @@ pipeline {
         timeout(time: 10, unit: 'MINUTES')
      }
     environment {
-    ACR_NAME = "yanckoacr"
-    registyUrl = "yanckoacr.azurecr.io"
+    ACR_NAME = "yannickacr"
+    registyUrl = "yannickacr.azurecr.io"
     IMAGE_NAME = "nodejswebapp"
     IMAGE_TAG = "v1.0.0"
     registryCredential  = "yannick-acr"
